@@ -6,7 +6,7 @@ interface ImageProps {
 
 const Image: React.FC<ImageProps> = ({ src, alt, className }) => {
   return (
-    <img src={src} alt={alt} className={`w-full object-cover ${className}`} />
+    <img src={src} alt={alt} className={`w-full object-contain ${className}`} />
   );
 };
 
